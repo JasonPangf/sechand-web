@@ -1,0 +1,11 @@
+.comment_title{
+    border-bottom: 1px dashed #000;
+    font-size: 23px;
+    padding: 5px;
+}
+.comment_area{
+    border: 1px solid #000;
+    width: 95%;
+    margin: 15px auto;
+    height: 400px;
+}

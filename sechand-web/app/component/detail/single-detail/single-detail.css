@@ -1,0 +1,54 @@
+.detail{
+    font-size: 23px;
+    border-bottom: 1px dashed #000;
+    padding: 3px;
+    margin-bottom: 25px;
+}
+.detailwrapper{
+    height: 450px;
+}
+.detailwrapper>img{
+    width: 330px;
+    height: 280px;
+    display: inline;
+    float: left;
+}
+.information{
+    width: 60%;
+    margin-left: 350px;
+    padding-top: 25px;
+    height: 180px;
+}
+.information>div{
+    margin: 5px;
+}
+.information>div:first-child{
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.instruction{
+    font-weight: bold;
+}
+.detailcontent{
+    height: 115px;
+    overflow: hidden;
+    text-indent: 22px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.showContent{
+    overflow: visible;
+    text-indent: 22px;
+    letter-spacing: 1px;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.search{
+    font-size: 14px;
+    letter-spacing: 1px;
+    float: right;
+    cursor: pointer;
+    color: #365899;
+}

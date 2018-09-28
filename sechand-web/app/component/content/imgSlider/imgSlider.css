@@ -7,8 +7,8 @@
     font-size: 15px;
     margin-top: 50px;
     position: absolute;
-    top: 69%;
-    right: 17%;
+    top: 67%;
+    right: 11%;
     z-index: 9;
 }
 .title>li{
@@ -34,14 +34,14 @@
 }
 .slider{
     overflow: hidden;
-    height: 361px;
+    height: 400px;
     position: relative;
 }
 
-img{
+.imgwrapper>img{
     margin-left: 10px;
-    width: 850px;
-    height: 360px;
+    width: 990px;
+    height: 380px;
     float: left;
     position: absolute;
     z-index: -2;

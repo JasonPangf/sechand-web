@@ -2,12 +2,18 @@
 
 }
 .suggest{
-    height:50px;
-    background-color: #8c222c;
-    margin: 5px 0;
     font-size: 20px;
-    text-align: center;
-    color: #fff;
+    color: #000;
+    padding-left: 3px;
+    border-bottom: 1px dashed #000;
+    width: 77.5%;
+    margin-left: 20%;
+    padding-bottom: 3px;
+}
+.list{
+    height: 450px;
+    overflow: hidden;
+    margin-top: 25px;
 }
 .list>div{
     width: 150px;
@@ -25,7 +31,23 @@
 }
 .desc{
     position: relative;
-    top: 73%;
-    left: 32%;
-    font-size: 12px;
+    left: 27%;
+    font-size: 13px;
+}
+.name{
+    color: #000000;
+}
+.name>a{
+    color: #000000;
+    text-decoration: none;
+}
+.name>a:hover{
+    color: #8c222c;
+    cursor: pointer;
+}
+.name>a:active{
+    color: #000;
+}
+.price{
+    color: #8c222c;
 }
